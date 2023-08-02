@@ -7,6 +7,7 @@ const comment3 = "What I don't understand is that in `renderWithHooks`, there is
 
 
 export const IssueView = () => {
+
   return (
     <div className="row mb-5">
       <div className="col-12 mb-3">
@@ -14,11 +15,11 @@ export const IssueView = () => {
       </div>
 
       {/* Primer comentario */}
-      <IssueComment body={ comment1 } />
+      <IssueComment body={comment1} />
 
       {/* Comentario de otros */}
-      <IssueComment body={ comment2 } />
-      <IssueComment body={ comment3 } />
+      <IssueComment body={comment2} />
+      <IssueComment body={comment3} />
     </div>
   )
 }
